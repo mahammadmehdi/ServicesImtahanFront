@@ -1,0 +1,34 @@
+.ourProffessionalMembers {
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+  .ourTeamMembers {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .top {
+        display: flex;
+        align-items: baseline;
+        gap: 20px;
+      .border {
+        height: 3px;
+        width: 100px;
+        background-color: red;
+      }
+      .about {
+        font-size: 18px;
+        color: red;
+      }
+    }
+    .main {
+        font-size: 50px;
+        color: #092c3f;
+    }
+    .cards {
+        display: flex;
+        gap: 50px;
+    }
+  }
+}

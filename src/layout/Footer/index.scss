@@ -1,0 +1,23 @@
+.footer {
+  background-image: url("https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/footer_bg.jpg");
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  .foot {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    .left {
+      color: white;
+    }
+    .right {
+      display: flex;
+      gap: 50px;
+      color: white;
+      i {
+        cursor: pointer;
+      }
+    }
+  }
+}

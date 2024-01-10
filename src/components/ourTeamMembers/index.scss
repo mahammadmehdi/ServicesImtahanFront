@@ -1,0 +1,33 @@
+.teamMembers {
+    img{
+        width: 370px;
+        height: 463px;
+    }
+  .card {
+box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
+width: 370px;
+height: 112px;
+padding: 30px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+    .top {
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .bottom {
+        display: flex;
+        align-items: baseline;
+        gap: 20px;
+      .border {
+        height: 3px;
+        width: 100px;
+        background-color: red;
+      }
+      .job {
+        color: red;
+        font-size: 14px;
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+.ourBestServices {
+  width: 100%;
+  padding-top: 10%;
+  .ourBestServicesCards {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .top {
+      display: flex;
+      align-items: baseline;
+      gap: 20px;
+      .border {
+        height: 3px;
+        width: 100px;
+        background-color: red;
+      }
+      .text {
+        color: red;
+        font-size: 18px;
+      }
+    }
+    .main {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      .maintext {
+        font-size: 50px;
+        color: #092c3f;
+      }
+    }
+    .cards {
+      display: grid;
+      gap: 50px;
+      grid-template-columns: auto auto auto;
+      .card {
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+          rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        width: 400px;
+        height: 367px;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px;
+        &:hover {
+          background-color: #ff2143;
+          transition: 700ms;
+          .btn {
+            background-color: white;
+            color: black;
+            transition: 700ms;
+          }
+          .icon {
+            color: white;
+          }
+          .title {
+            color: white;
+            cursor: pointer;
+          }
+          .description {
+            color: white;
+          }
+        }
+
+        .icon {
+          font-size: 65px;
+          color: #eb566c;
+        }
+        .title {
+          color: #092c3f;
+          font-size: 20px;
+        }
+        .description {
+          font-size: 16px;
+          color: #57667e;
+        }
+        .btn {
+          width: 195px;
+          height: 60px;
+          background-color: #ff2143;
+          border: none;
+          color: white;
+          font-size: 16px;
+          &:hover {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            transition: 500ms;
+          }
+        }
+      }
+    }
+  }
+}

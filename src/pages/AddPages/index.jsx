@@ -32,13 +32,13 @@ function AddPages() {
             <title>Add Pages</title>
           </Helmet>
       </HelmetProvider>
-      <form onSubmit={handleSubmit}>
-        <input type="text" onChange={(e)=>setIcons(e.target.value)}/>
-        <input type="text" onChange={(e)=>setTitle(e.target.value)} />
-        <input type="text" onChange={(e)=>setDescription(e.target.value)}/>
+      <div className="form"><form onSubmit={handleSubmit}>
+        <div className="inputIcon"> <p>Icon</p><input type="text" onChange={(e)=>setIcons(e.target.value)}/></div>
+        <div className="inputTitle"><p>Title</p><input type="text" onChange={(e)=>setTitle(e.target.value)} /></div>
+        <div className="inputDesc"><p>Description</p><input type="text" onChange={(e)=>setDescription(e.target.value)}/></div>
 
         <button>add</button>
-      </form>
+      </form></div>
     </div>
   );
 }

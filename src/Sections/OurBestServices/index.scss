@@ -31,9 +31,9 @@
       }
     }
     .cards {
-      display: grid;
+      display: flex;
       gap: 50px;
-      grid-template-columns: auto auto auto;
+      flex-wrap: wrap;
       .card {
         display: flex;
         flex-direction: column;

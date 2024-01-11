@@ -1,4 +1,23 @@
-.addPages{
+.addPages {
     margin-bottom: 10%;
- 
+    display: flex;
+    justify-content: center;
+  align-items: end;
+    .form {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        justify-content: center;
+        align-items: center;
+        
+
+
+        .inputIcon {}
+
+        .inputTitle {}
+
+        .inputDesc {}
+    }
 }
